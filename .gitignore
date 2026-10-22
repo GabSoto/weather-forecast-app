@@ -1,0 +1,37 @@
+# Dependencias
+node_modules/
+
+# Salida de build
+dist/
+dist-ssr/
+
+# Caché y cobertura de pruebas
+coverage/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Variables de entorno locales
+.env
+.env.local
+.env.*.local
+
+# Editores e IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini

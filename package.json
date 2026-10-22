@@ -1,0 +1,22 @@
+{
+  "name": "weather-forecast-app",
+  "version": "1.0.0",
+  "description": "SPA de pronóstico del clima con Open-Meteo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest --run",
+    "preview": "vite preview"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "fast-check": "^4.10.2",
+    "jsdom": "^29.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
